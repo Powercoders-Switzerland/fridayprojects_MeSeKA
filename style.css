@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f8efef;
     margin: 0;
     padding: 0;
 }
@@ -10,9 +10,6 @@ div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /*display: grid;
-    grid-template-rows: 3 12fr;
-    gap: 5px;*/
 }
 h1 {
     text-align: center;
@@ -25,14 +22,16 @@ p{
 }
 
 ul {
-   
-    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
     list-style-type: none;
     padding: 0;
 }
 
 li {
-    border: 2px solid blue;
+    background-color: rgb(124, 168, 199);
+    border: 2px solid rgb(162, 162, 196);
     border-radius: 5%;
     margin: 10px 0;
 }
@@ -63,7 +62,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #e6e7f0;
 }
 .comparisonTable {
     width: 100%;
