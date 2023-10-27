@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Company Comparison App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Company Comparison App</h1>
+    <div>
+        <h2>Companies</h2>
+        <ul id="companyList">
+            
+        </ul>
+    </div>
+    <div>
+        <h2>Selected Companies for Comparison</h2>
+        <ul id="selectedCompanies">
+            
+        </ul>
+        <button id="compareButton" onclick="compareCompanies()">Compare</button>
+    </div>
+
+    <div>
+        <button id="favoritesButton">Add to Favorites</button>
+    </div>
+
+    <div id="comparisonResults">
+        
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

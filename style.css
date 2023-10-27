@@ -1,0 +1,52 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#selectedCompanies {
+    margin-bottom: 20px;
+}
+
+#comparisonResults {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+.companyCheckbox:checked + label {
+    font-weight: bold;
+    color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

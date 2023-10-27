@@ -1,0 +1,92 @@
+[
+    {
+        "name": "IBM",
+        "location": "New York",
+        "internshipCount": 100,
+        "requirements": "Bachelor's degree",
+        "sector": "Technology",
+        "departments": "Software, Hardware",
+        "languageRequirements": "English"
+    },
+    {
+        "name": "On AG",
+        "location": "Zurich",
+        "internshipCount": 50,
+        "requirements": "Master's degree",
+        "sector": "Finance",
+        "departments": "Finance, IT",
+        "languageRequirements": "German, English"
+    },
+    {
+        "name": "Iterativ",
+        "location": "Zurich",
+        "internshipCount": 30,
+        "requirements": "Bachelor's degree",
+        "sector": "Technology",
+        "departments": "Software, Hardware",
+        "languageRequirements": "English"
+    },
+    {
+        "name": "Siemens",
+        "location": "Munich",
+        "internshipCount": 80,
+        "requirements": "Master's degree",
+        "sector": "Engineering",
+        "departments": "Electrical, Mechanical",
+        "languageRequirements": "German, English"
+    },
+    {
+        "name": "Galenica",
+        "location": "Bern",
+        "internshipCount": 20,
+        "requirements": "Bachelor's degree",
+        "sector": "Pharmaceuticals",
+        "departments": "Research, Sales",
+        "languageRequirements": "German, English"
+    },
+    {
+        "name": "Swisscom",
+        "location": "Bern",
+        "internshipCount": 60,
+        "requirements": "Master's degree",
+        "sector": "Telecommunications",
+        "departments": "Network, Customer Service",
+        "languageRequirements": "German, French, English"
+    },
+    {
+        "name": "KPT",
+        "location": "Bern",
+        "internshipCount": 25,
+        "requirements": "Bachelor's degree",
+        "sector": "Insurance",
+        "departments": "Actuarial, Claims",
+        "languageRequirements": "German"
+    },
+    {
+        "name": "Insel",
+        "location": "Bern",
+        "internshipCount": 15,
+        "requirements": "Master's degree",
+        "sector": "Healthcare",
+        "departments": "Medical, Administration",
+        "languageRequirements": "German, French"
+    },
+    {
+        "name": "M-F",
+        "location": "Zurich",
+        "internshipCount": 40,
+        "requirements": "Bachelor's degree",
+        "sector": "Marketing",
+        "departments": "Advertising, Research",
+        "languageRequirements": "German, English"
+    },
+    {
+        "name": "Roche",
+        "location": "Basel",
+        "internshipCount": 75,
+        "requirements": "Master's degree",
+        "sector": "Pharmaceuticals",
+        "departments": "Research, Manufacturing",
+        "languageRequirements": "German, English"
+    }
+]
