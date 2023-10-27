@@ -6,19 +6,34 @@ body {
     margin: 0;
     padding: 0;
 }
-
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*display: grid;
+    grid-template-rows: 3 12fr;
+    gap: 5px;*/
+}
 h1 {
     text-align: center;
     color: #333;
     margin: 20px 0;
 }
+p{
+    text-align: center;
+    color: rebeccapurple;
+}
 
 ul {
+   
+    /* align-items: center; */
     list-style-type: none;
     padding: 0;
 }
 
 li {
+    border: 2px solid blue;
+    border-radius: 5%;
     margin: 10px 0;
 }
 
@@ -49,4 +64,26 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+.comparisonTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.comparisonTable th, .comparisonTable td {
+    border: 1px solid #92c4c7;
+    padding: 8px;
+    text-align: left;
+}
+
+.comparisonTable th {
+    background-color: #f2f2f2;
+}
+
+.comparisonTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.comparisonTable tr:nth-child(odd) {
+    background-color: #fff;
 }

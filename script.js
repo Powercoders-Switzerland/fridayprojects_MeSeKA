@@ -81,7 +81,7 @@ function compareCompanies() {
 
     const table = document.createElement("table");
     table.classList.add("comparisonTable");
-
+    
     
     const headerRow = document.createElement("tr");
     const headers = ["Name", "Location", "Internship Count", "Requirements", "Sector", "Departments", "Language Requirements"];

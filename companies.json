@@ -1,12 +1,12 @@
 [
     {
         "name": "IBM",
-        "location": "New York",
+        "location": "Zurich",
         "internshipCount": 100,
-        "requirements": "Bachelor's degree",
-        "sector": "Technology",
+        "requirements": "Machine Learning",
+        "sector": "Cross IT",
         "departments": "Software, Hardware",
-        "languageRequirements": "English"
+        "languageRequirements": "English, German"
     },
     {
         "name": "On AG",
