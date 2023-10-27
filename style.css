@@ -1,15 +1,18 @@
-/* Add your CSS styles here */
+
 
 body {
+    background-color: #e6eaea;
+    background-size: 70%;
     font-family: Arial, sans-serif;
-    background-color: #f8efef;
     margin: 0;
     padding: 0;
 }
 div{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-right: 20px;
 }
 h1 {
     text-align: center;
@@ -22,18 +25,30 @@ p{
 }
 
 ul {
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     list-style-type: none;
     padding: 0;
+    
 }
 
 li {
-    background-color: rgb(124, 168, 199);
-    border: 2px solid rgb(162, 162, 196);
-    border-radius: 5%;
+
+    background-color: none;
     margin: 10px 0;
+    gap:20px;
+}
+li:hover{
+    background-color: rgb(141, 152, 152);
+}
+img{
+    width: 100px;
+    height: 100px;
+    
+    
+    
 }
 
 #selectedCompanies {

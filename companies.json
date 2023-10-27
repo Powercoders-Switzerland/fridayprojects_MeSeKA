@@ -6,7 +6,10 @@
         "requirements": "Cloud API",
         "sector": "Technology",
         "departments": "Software, Hardware",
-        "languageRequirements": "English"
+        "languageRequirements": "English",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1920px-IBM_logo.svg.png"
+       
+        
     },
     {
         "name": "On AG",
@@ -15,7 +18,8 @@
         "requirements": "Front-End",
         "sector": "Finance",
         "departments": "DTC",
-        "languageRequirements": "German, English"
+        "languageRequirements": "German, English",
+        "imgSrc": "https://www.startup.ch/demandit/files/M_BB941CC4DCEF687AD98/dms//Image/On-Logo-Black_344.jpg"
     },
     {
         "name": "Iterativ",
@@ -24,7 +28,8 @@
         "requirements": "Tester",
         "sector": "Technology",
         "departments": "Software, Hardware",
-        "languageRequirements": "English"
+        "languageRequirements": "English",
+        "imgSrc": "https://image-cache.xingcdn.com/images/attachments/269/202/688/original/ce1670e0_84d6_4744_be52_c0454398cab8.png?Expires=1699001866&Signature=iCVXa3VN5~BQq35osvaPnGo4u7~uhFmaNfwfGrW8inX2gpZtKVFX0EtildldsO4F8-YF9cWKIjgBBal569NBc4sw1IZZCxXE3ymZf9Utv3sEYKeO5I~AI34x~rsRSfxAQs0HVX1lPcI4i2L9e5oVE~EiVGA62SF~pyY2Upkozo5vAkJ6ODfUG56DcaubNvWy3wydvXUvNYr1dt5rShzIeig2JQpZeOkLmTUCzz5rSDw~ykh9L8z4yrHQKe8~HYzTELysbUrrFQwKLw4Y~YO1lN7fL216pP609yf-WpG~nQ0libkwhQRWHYmeWSRsPJNeixQCereTA3SRhT2Qe6F6Bg__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q"
     },
     {
         "name": "Siemens",
@@ -33,7 +38,8 @@
         "requirements": "Devops",
         "sector": "Engineering",
         "departments": "Electrical, Mechanical",
-        "languageRequirements": "German, English"
+        "languageRequirements": "German, English",
+        "imgSrc": "https://yt3.googleusercontent.com/n03PddoJXhZbJXCalvhKlYnZCYcQ9aWCox5zrG8vzwviNoPo7Nsj2dimRms6uYG9Ni18qgT9=s900-c-k-c0x00ffffff-no-rj"
     },
     {
         "name": "Galenica",
@@ -42,7 +48,8 @@
         "requirements": "Devops",
         "sector": "Pharmaceuticals",
         "departments": "Research, Sales",
-        "languageRequirements": "German, English"
+        "languageRequirements": "German, English",
+        "imgSrc": "https://www.startup.ch/demandit/files/M_BB941CC4DCEF687AD98/dms//Image/On-Logo-Black_344.jpg"
     },
     {
         "name": "Swisscom",
@@ -51,7 +58,8 @@
         "requirements": "Software Engineer",
         "sector": "Telecommunications",
         "departments": "Network, Customer Service",
-        "languageRequirements": "German, French, English"
+        "languageRequirements": "German, French, English",
+        "imgSrc": "https://balexert.ch/app/uploads/2019/05/telephone-logo-swisscom.webp"
     },
     {
         "name": "KPT",
@@ -60,7 +68,8 @@
         "requirements": "Tester",
         "sector": "Insurance",
         "departments": "Actuarial, Claims",
-        "languageRequirements": "German"
+        "languageRequirements": "German",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/d/d8/KPT_Logo.jpg"
     },
     {
         "name": "Insel",
@@ -69,7 +78,8 @@
         "requirements": "Software Engineer",
         "sector": "Healthcare",
         "departments": "Medical, Administration",
-        "languageRequirements": "German, French"
+        "languageRequirements": "German, French",
+        "imgSrc": "https://www.inselgruppe.ch/fileadmin/Insel_Gruppe/Bilder/Mediendienst/News/2015_Insel_Gruppe.jpg"
     },
     {
         "name": "M-F",
@@ -78,7 +88,8 @@
         "requirements": "Bachelor's degree",
         "sector": "Marketing",
         "departments": "Advertising, Research",
-        "languageRequirements": "German, English"
+        "languageRequirements": "German, English",
+        "imgSrc": "https://www.swissmadesoftware.org/.imaging/w500-png/dam/ac8e661a-ef37-4ad1-8e15-e7e47d5187cf/MF_Logo_Briefgr-sse.png"
     },
     {
         "name": "Roche",
@@ -87,6 +98,7 @@
         "requirements": "Web Development",
         "sector": "Pharmaceuticals",
         "departments": "Research, Manufacturing",
-        "languageRequirements": "German, English"
+        "languageRequirements": "German, English",
+        "imgSrc": "https://yt3.googleusercontent.com/GzQ4YiM1g4mgXgHwwbDNy4XLA6d465zP1u8vekibBCrORli0Zl91eR3FCpaQ2usDEr12scz_8LU=s900-c-k-c0x00ffffff-no-rj"
     }
 ]

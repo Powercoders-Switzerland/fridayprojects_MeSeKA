@@ -12,11 +12,12 @@ function fetchData() {
                 checkbox.setAttribute("type", "checkbox");
                 checkbox.classList.add("companyCheckbox");
                 checkbox.setAttribute("data-name", company.name);
-                const label = document.createElement("label");
-                label.textContent = company.name;
+                const imgSrc = document.createElement("img");
+                imgSrc.src=company.imgSrc;
+               
                 const listItem = document.createElement("li");
                 listItem.appendChild(checkbox);
-                listItem.appendChild(label);
+                listItem.appendChild(imgSrc);
                 companyList.appendChild(listItem);
 
             });
