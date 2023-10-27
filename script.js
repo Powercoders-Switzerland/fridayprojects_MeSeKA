@@ -18,11 +18,53 @@ function fetchData() {
                 listItem.appendChild(checkbox);
                 listItem.appendChild(label);
                 companyList.appendChild(listItem);
+
             });
+            addCompaniesEventListener();
         })
         .catch(error => {
             console.error('Error fetching data:', error);
         });
+}
+
+const selectedCompanies = [];
+
+
+
+function addCompaniesEventListener() {
+    const companyCheckboxes = document.querySelectorAll(".companyCheckbox");
+
+    companyCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener("click", function() {
+            const companyName = this.getAttribute("data-name");
+    
+            if (this.checked) {
+                
+                selectCompany(companyName);
+            } else {
+                
+                deselectCompany(companyName);
+            }
+        });
+    });
+}
+
+
+
+function selectCompany(companyName) {
+    const company = companies.find(company => company.name === companyName);
+    if (company) {
+        selectedCompanies.push(company);
+ 
+    }
+}
+
+function deselectCompany(companyName) {
+    const index = selectedCompanies.findIndex(company => company.name === companyName);
+    if (index !== -1) {
+        selectedCompanies.splice(index, 1);
+      
+    }
 }
 
 
@@ -67,9 +109,7 @@ function compareCompanies() {
 
 
 
-function addToFavorites() {
-    
-}
+
 
 
 
